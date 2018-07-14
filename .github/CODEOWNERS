@@ -1,0 +1,5 @@
+# Doc Files Reviewer
+.vuepress/* @thecodechef
+
+# Markdown Files Reviewer
+*.md @thecodechef
