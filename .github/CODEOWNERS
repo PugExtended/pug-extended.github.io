@@ -1,8 +1,8 @@
 # All Files Reviewer
-* @thecodechef
+* @PugExtended/Docs
 
-# Doc Files Reviewer
-.vuepress/* @thecodechef
+# VuePress Files Reviewer
+.vuepress/**/* @thecodechef
 
 # Markdown Files Reviewer
 *.md @thecodechef

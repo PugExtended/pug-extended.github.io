@@ -1,0 +1,12 @@
+template
+  v-app(dark)
+    v-content()
+      v-container()
+        v-card(v-for='item in items' :key='item.id')
+          v-card-media(src=${item.src}, height=${item.height})
+          v-card-title(primary-title)
+            div
+              h3.headline.mb-0()= ${item.headline};
+          v-card-actions()
+            each action in item.actions;
+              v-btn(btn color=${action.color})= ${action.title}
