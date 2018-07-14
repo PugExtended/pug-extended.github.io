@@ -1,2 +1,3 @@
-# pug-extended.github.io
-The Docs for Pug Extended
+# Pug Extended Docs
+
+> The Docs for Pug Extended

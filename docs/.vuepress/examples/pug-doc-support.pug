@@ -1,0 +1,14 @@
+
+//- @pugdoc
+  name: list
+  type: mixin
+  arguments:
+    - {string} name - the name of the list.
+    - {array} items - an array of items for the list.
+  examples:
+    - +list('myList',[1,2,3,4])
+
+mixin list(name, ...items)
+  ul(id=name)
+    each item in items
+      li= item
